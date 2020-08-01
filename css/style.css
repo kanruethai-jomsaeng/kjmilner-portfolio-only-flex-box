@@ -282,8 +282,8 @@ h6 a:hover {
   color: var(--Blue-3);
   font-size: 1.8rem;
 }
-.skill-title{
-    margin-top: 30px;
+.skill-title {
+  margin-top: 30px;
 }
 .skills-center {
   display: flex;
@@ -312,7 +312,7 @@ h6 a:hover {
   width: 300;
   height: 150;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   display: inline-block;
   text-align: center;
   margin: 15px auto;
@@ -353,7 +353,7 @@ h6 a:hover {
 .contact {
   border-top: 2px solid var(--Blue-3);
   background: var(--white-2);
-  }
+}
 .contact-title {
   margin-top: 30px;
 }
@@ -399,33 +399,31 @@ h6 a:hover {
   color: var(--white-1);
   background: var(--Blue-6);
 }
-.contact-icon-container{
-    margin-top: 15px;
-    text-align: center;
-    margin-bottom: 15px;
+.contact-icon-container {
+  margin-top: 15px;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
-.contact-icon-center a{
-    padding: 5px 15px;
-    color: var(--Blue-3);
-    font-size: 2.5rem;
-    border-radius: 50%;
-   background: var(--Blue-6);
-   margin: 15px auto;
-   transition: all 2s ease;
-    
+.contact-icon-center a {
+  padding: 5px 15px;
+  color: var(--Blue-3);
+  font-size: 2.5rem;
+  border-radius: 50%;
+  background: var(--Blue-6);
+  margin: 15px auto;
+  transition: all 2s ease;
 }
-.contact-icon-center a:hover{
-color: var(--white-1);
-transform: scale(1.5);
+.contact-icon-center a:hover {
+  color: var(--white-1);
+  transform: scale(1.5);
 }
-.footer-container{
-    margin:0 auto;
-    background: var(--Blue-7);
-    padding: 20px 0;
-    color: var(--white-3);
-    text-align: center;
-   
+.footer-container {
+  margin: 0 auto;
+  background: var(--Blue-7);
+  padding: 20px 0;
+  color: var(--white-3);
+  text-align: center;
 }
 
 /* end of section-contact */

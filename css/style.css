@@ -418,33 +418,33 @@ h6 a:hover {
   color: var(--white-1);
   transform: scale(1.5);
 }
-.nav-footer-control{
- display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+.nav-footer-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.nav-footer{
-  display:flex;
+.nav-footer {
+  display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
-  
+
   list-style-type: none;
-   margin: 25px auto;
+  margin: 25px auto;
 }
-.nav-footer a{
-text-decoration: none;
-padding-left: 10px;
-padding-right: 10px;
-padding-top: 25px;
-padding-bottom: 5px;
-color: #0c171d;
-transition: all 2s ease;
+.nav-footer a {
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 25px;
+  padding-bottom: 5px;
+  color: #0c171d;
+  transition: all 2s ease;
 }
-.nav-footer a:hover{
+.nav-footer a:hover {
   color: var(--white-2);
   background: var(--Blue-3);
   border-radius: 15px 5px;
@@ -456,6 +456,18 @@ transition: all 2s ease;
   padding: 20px 0;
   color: var(--white-3);
   text-align: center;
+}
+.email {
+  text-align: center;
+ align-items: center;
+ padding-bottom: 10px;
+}
+.email-icon{
+  padding: 5px;
+
+  color: var(--Blue-3);
+  border-radius: 50%;
+  background: var(--Blue-6);
 }
 
 /* end of section-contact */
